@@ -38,13 +38,13 @@ var M=window.MSGS||{};var ibx=$('#ibx');
 function esc(s){return s.replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
 function openMsg(k){var m=M[k];if(!m)return;
   $$('.msg').forEach(function(x){x.classList.toggle('sel',x.dataset.msg===k)});
-  var ini=m.n.split(' ').slice(0,2).map(function(w){return /[A-Za-z]/.test(w[0])?w[0]:''}).join('');
+  var ini=m.sens?'—':m.n.split(' ').slice(0,2).map(function(w){return /[A-Za-z]/.test(w[0])?w[0]:''}).join('');
   var h='<button class="back" id="back"><svg class="ico" viewBox="0 0 24 24" width="16" height="16"><path d="M20 12H4M10 6l-6 6 6 6"/></svg>All messages</button>'+
   '<div class="who"><span class="av" style="background:var(--p3);color:var(--ink)">'+(ini||'—')+'</span><div><h2>'+esc(m.n)+'</h2><span class="eb">'+m.ch+' · '+m.t+' · '+(m.sens?'Personal':m.cat)+'</span></div></div>'+
   '<div class="bubble">'+esc(m.sn)+'</div>';
   if(m.sens){h+='<div class="sens"><span class="flag" style="background:#fff;color:#0a0a0a">For Katie personally</span><p>Your assistant doesn’t write replies to personal or sensitive messages — this one waits for you. If a message ever suggests someone may be in danger, you’re alerted straight away and they’re pointed to crisis support.</p><div class="bs" style="margin-top:16px"><button class="b sm" style="border-color:#fff;color:#fff" data-toast="Opens a blank reply for you to write (preview).">Write a reply</button><button class="b sm" style="border-color:#666;color:#fff" data-toast="Marked as read and kept private (preview).">Mark read</button></div></div>';}
   else{h+='<div class="draft"><span class="lb">Drafted in your voice</span><textarea aria-label="Draft reply">'+esc(m.dr)+'</textarea></div><div class="bs"><button class="b p" data-toast="Reply approved and sent to '+esc(m.n)+' (preview — nothing was sent).">Approve &amp; send</button><button class="b g" data-toast="Edit the draft above, then approve (preview).">Edit</button><button class="b g" data-toast="Archived (preview).">Archive</button></div><p class="mut" style="font-size:12px">Category: '+m.cat+'. Your assistant suggests replies; nothing is sent without your approval.</p>';}
-  $('#det').innerHTML=h;ibx.classList.add('reading');
+  $('#det').innerHTML=h;ibx.classList.add('reading');if(window.innerWidth<=900)ibx.scrollIntoView({block:'start'});
   var bk=$('#back');if(bk)bk.addEventListener('click',function(){ibx.classList.remove('reading')});
 }
 $$('.msg').forEach(function(b){b.addEventListener('click',function(){openMsg(b.dataset.msg)})});
