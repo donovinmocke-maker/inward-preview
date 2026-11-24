@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img">
+  <title>Example white Inward mug</title>
+  <rect width="800" height="1000" fill="#e4e4e3"/>
+  <ellipse cx="390" cy="760" rx="150" ry="14" fill="#0a0a0a" opacity="0.07"/>
+  <path d="M520 470 C655 470 655 690 520 690" fill="none" stroke="#141414" stroke-width="34" stroke-linecap="round"/>
+  <path fill="#f7f7f6" stroke="#141414" stroke-width="2.5" stroke-linejoin="round" d="M275 400 L300 720 Q400 775 500 720 L525 400 Z"/>
+  <ellipse cx="400" cy="400" rx="125" ry="40" fill="#f7f7f6" stroke="#141414" stroke-width="2.5"/>
+  <ellipse cx="400" cy="400" rx="86" ry="24" fill="#d5d5d4"/>
+  <text x="400" y="590" text-anchor="middle" fill="#141414" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30">Inward</text>
+  <text x="400" y="948" text-anchor="middle" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5">EXAMPLE</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img">
+  <title>Example black Inward t-shirt</title>
+  <rect width="800" height="1000" fill="#f3f3f2"/>
+  <ellipse cx="400" cy="830" rx="170" ry="14" fill="#0a0a0a" opacity="0.06"/>
+  <path fill="#141414" d="M200 390 L300 332 C324 332 348 358 368 372 C384 386 416 386 432 372 C452 358 476 332 500 332 L600 390 L668 500 L590 542 L548 456 L532 778 L268 778 L252 456 L210 542 L132 500 Z"/>
+  <path d="M334 348 C358 392 442 392 466 348" fill="none" stroke="#f3f3f2" stroke-width="2"/>
+  <text x="400" y="610" text-anchor="middle" fill="#f3f3f2" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34">Inward</text>
+  <text x="400" y="948" text-anchor="middle" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5">EXAMPLE</text>
+</svg>
