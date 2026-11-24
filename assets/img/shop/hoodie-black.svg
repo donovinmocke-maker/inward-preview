@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img">
+  <title>Example black Inward hoodie</title>
+  <rect width="800" height="1000" fill="#f3f3f2"/>
+  <ellipse cx="400" cy="880" rx="190" ry="14" fill="#0a0a0a" opacity="0.06"/>
+  <path fill="#141414" d="M250 430 C230 250 570 250 550 430 L630 500 L700 610 L610 658 L555 545 L540 840 L260 840 L245 545 L190 658 L100 610 L170 500 Z"/>
+  <path d="M330 430 C345 390 455 390 470 430" fill="none" stroke="#f3f3f2" stroke-width="2"/>
+  <path d="M318 600 H482 V710 H318 Z" fill="none" stroke="#f3f3f2" stroke-width="2"/>
+  <path d="M300 800 H500" fill="none" stroke="#f3f3f2" stroke-width="2"/>
+  <text x="400" y="540" text-anchor="middle" fill="#f3f3f2" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="32">Inward</text>
+  <text x="400" y="948" text-anchor="middle" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5">EXAMPLE</text>
+</svg>

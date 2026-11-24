@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img">
+  <title>Example black Inward journal</title>
+  <rect width="800" height="1000" fill="#f3f3f2"/>
+  <ellipse cx="420" cy="820" rx="180" ry="14" fill="#0a0a0a" opacity="0.06"/>
+  <rect x="555" y="248" width="22" height="524" fill="#d8d8d7"/>
+  <rect x="570" y="260" width="16" height="500" fill="#ececeb"/>
+  <rect x="230" y="230" width="340" height="560" fill="#141414"/>
+  <rect x="230" y="230" width="26" height="560" fill="#2a2a2a"/>
+  <path d="M310 470 H490" stroke="#f3f3f2" stroke-width="1"/>
+  <text x="412" y="450" text-anchor="middle" fill="#f3f3f2" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="42">Inward</text>
+  <text x="412" y="510" text-anchor="middle" fill="#f3f3f2" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4">JOURNAL</text>
+  <text x="400" y="948" text-anchor="middle" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5">EXAMPLE</text>
+</svg>
